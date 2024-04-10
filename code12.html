@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <title>Sneaks Club</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #212121;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #424242;
+            padding: 20px 0;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 24px;
+            margin: 0 20px;
+            transition: color 0.3s ease; /* Added transition */
+        }
+
+        .navbar a:hover {
+            color: #4caf50; /* Change color to green on hover */
+        }
+
+        .store-name {
+            font-size: 96px; /* Increased font size */
+            color: #d32f2f;
+            margin-bottom: 50px;
+            font-family: 'Roboto Condensed', sans-serif;
+            letter-spacing: 5px;
+        }
+
+        .store-info,
+        .social-media {
+            width: 100%;
+            background-color: #212121;
+            padding: 50px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .store-info h2,
+        .social-media h2 {
+            color: #d32f2f;
+            font-size: 36px;
+        }
+
+        .store-info p,
+        .social-media p {
+            color: #ffffff;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .icons a {
+            color: #ffffff;
+            font-size: 40px; /* Increased icon size */
+            margin: 0 15px; /* Increased margin */
+            text-decoration: none;
+            transition: color 0.3s ease; /* Added transition */
+        }
+
+        .icons a:hover {
+            color: #4caf50; /* Change color to green on hover */
+        }
+
+        .btn {
+            background-color: #d32f2f;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            text-decoration: none;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Added transition */
+        }
+
+        .btn:hover {
+            background-color: #4caf50; /* Changed color to green on hover */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="store-name">Sneaks Club</h1>
+
+        <!-- Changed the title to a button linking to Google Maps -->
+        <a href="https://www.google.com/maps?q=Dekwaneh, Slav Sneaks Club" class="btn">Visit Us</a>
+
+        <div class="store-info">
+            <h2>Location</h2>
+            <!-- Changed phone number and location -->
+            <p>Location: Dekwaneh, Slav</p>
+            <p>Phone: +961 76 674 357</p>
+        </div>
+
+        <div class="social-media">
+            <h2>Connect With Us</h2>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/SneaksClub">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com/sneaks.club.lb">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@sneaks.club">
+                    <!-- Replaced TikTok icon with a similar one -->
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add your images here -->
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+
+    <nav class="navbar">
+        <a href="https://www.instagram.com/sneaks.club.lb">About Us</a>
+        <a href="https://api.whatsapp.com/send?phone=+96176674357">Contact Us</a>
+        <!-- Removed Twitter icon -->
+        <a href="www.tiktok.com/@sneaks.club">Social Media</a>
+    </nav>
+
+</body>
+
+</html>
